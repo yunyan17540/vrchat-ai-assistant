@@ -1,0 +1,8 @@
+{
+  "translate": "right_trigger",
+  "confirm_reply": "left_trigger",
+  "text_output": "tapi_osc",
+  "clipboard_capture": "off",
+  "hud_visibility": "auto",
+  "recognition_enabled": "off"
+}

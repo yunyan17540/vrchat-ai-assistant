@@ -1,0 +1,27 @@
+{
+  "actions": [
+    {"name": "/actions/main/in/left_grip", "type": "boolean"},
+    {"name": "/actions/main/in/right_grip", "type": "boolean"},
+    {"name": "/actions/main/in/left_trigger", "type": "boolean"},
+    {"name": "/actions/main/in/right_trigger", "type": "boolean"},
+    {"name": "/actions/main/in/left_a", "type": "boolean"},
+    {"name": "/actions/main/in/right_a", "type": "boolean"},
+    {"name": "/actions/main/in/left_b", "type": "boolean"},
+    {"name": "/actions/main/in/right_b", "type": "boolean"},
+    {"name": "/actions/main/in/left_touchpad", "type": "boolean"},
+    {"name": "/actions/main/in/right_touchpad", "type": "boolean"},
+    {"name": "/actions/main/in/left_menu", "type": "boolean"},
+    {"name": "/actions/main/in/right_menu", "type": "boolean"},
+    {"name": "/actions/main/in/right_joystick", "type": "vector2"}
+  ],
+  "action_sets": [
+    {"name": "/actions/main", "usage": "single"}
+  ],
+  "default_bindings": [
+    {"controller_type": "vive_controller", "binding_url": "steamvr_binding_vive_controller_v2.json"},
+    {"controller_type": "oculus_touch", "binding_url": "steamvr_binding_oculus_touch_v2.json"},
+    {"controller_type": "knuckles", "binding_url": "steamvr_binding_knuckles_v2.json"},
+    {"controller_type": "vd_hand_controller", "binding_url": "steamvr_binding_vd_hand_controller_v2.json"}
+  ],
+  "localization": []
+}

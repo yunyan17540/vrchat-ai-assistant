@@ -1,0 +1,10 @@
+deepseek.txt
+*.log
+*.pid
+*.stop
+__pycache__/
+*.pyc
+*.png
+*.jpg
+*.zip
+api_test_result.json

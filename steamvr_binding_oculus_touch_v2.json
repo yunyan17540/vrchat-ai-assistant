@@ -1,0 +1,27 @@
+{
+  "bindings": {
+    "/actions/main": {
+      "chords": [],
+      "haptics": [],
+      "poses": [],
+      "skeleton": [],
+      "sources": [
+        {"inputs": {"click": {"output": "/actions/main/in/left_grip"}}, "mode": "button", "path": "/user/hand/left/input/grip"},
+        {"inputs": {"click": {"output": "/actions/main/in/right_grip"}}, "mode": "button", "path": "/user/hand/right/input/grip"},
+        {"inputs": {"click": {"output": "/actions/main/in/left_trigger"}}, "mode": "button", "path": "/user/hand/left/input/trigger"},
+        {"inputs": {"click": {"output": "/actions/main/in/right_trigger"}}, "mode": "button", "path": "/user/hand/right/input/trigger"},
+        {"inputs": {"click": {"output": "/actions/main/in/left_a"}}, "mode": "button", "path": "/user/hand/left/input/x"},
+        {"inputs": {"click": {"output": "/actions/main/in/left_b"}}, "mode": "button", "path": "/user/hand/left/input/y"},
+        {"inputs": {"click": {"output": "/actions/main/in/right_a"}}, "mode": "button", "path": "/user/hand/right/input/a"},
+        {"inputs": {"click": {"output": "/actions/main/in/right_b"}}, "mode": "button", "path": "/user/hand/right/input/b"},
+        {"inputs": {"click": {"output": "/actions/main/in/left_touchpad"}}, "mode": "button", "path": "/user/hand/left/input/joystick"},
+        {"inputs": {"click": {"output": "/actions/main/in/right_touchpad"}}, "mode": "button", "path": "/user/hand/right/input/joystick"},
+        {"inputs": {"click": {"output": "/actions/main/in/left_menu"}}, "mode": "button", "path": "/user/hand/left/input/system"},
+        {"inputs": {"click": {"output": "/actions/main/in/right_menu"}}, "mode": "button", "path": "/user/hand/right/input/system"},
+        {"inputs": {"position": {"output": "/actions/main/in/right_joystick"}}, "mode": "joystick", "path": "/user/hand/right/input/joystick"}
+      ]
+    }
+  },
+  "controller_type": "oculus_touch",
+  "name": "VRChat AI Assistant v2"
+}
